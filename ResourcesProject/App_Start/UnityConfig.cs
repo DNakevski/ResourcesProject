@@ -1,7 +1,6 @@
 using System;
 using Microsoft.Practices.Unity;
 using Microsoft.Practices.Unity.Configuration;
-
 namespace ResourcesProject.App_Start
 {
     /// <summary>
@@ -36,7 +35,7 @@ namespace ResourcesProject.App_Start
             // container.LoadConfiguration();
 
             // TODO: Register your types here
-            // container.RegisterType<IProductRepository, ProductRepository>();
+            //container.RegisterType<IStoreWorkerService, LocalStoreWorkerService>();
         }
     }
 }
